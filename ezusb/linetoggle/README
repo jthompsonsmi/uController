@@ -1,0 +1,13 @@
+Written Jeffrey Thompson 3/20/08
+jeffrey@staticbag.homelinux.org
+
+This was based on multiple sources that were found.
+
+The program should just require a run of make which will run SDCC.
+See included Makefile for more details on setup of SDCC.
+
+If you find the Makefile confusing you can just run 
+sdcc ezusbledtoggle.c
+
+Problems you may run into:
+make sure sdcc is in your path

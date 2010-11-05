@@ -1,0 +1,18 @@
+Written Jeffrey Thompson 4/2/08
+jeffrey@staticbag.homelinux.org
+
+THIS IS NOT WORKING!!!!
+
+This blinks the light (PORTA) and writes to the serial port (PORTC)
+This is an attempt to get the extra pins to do JTAG
+
+This was based on multiple sources that were found.
+
+The program should just require a run of make which will run SDCC.
+See included Makefile for more details on setup of SDCC.
+
+If you find the Makefile confusing you can just run 
+sdcc ezusbledtoggle.c
+
+Problems you may run into:
+make sure sdcc is in your path

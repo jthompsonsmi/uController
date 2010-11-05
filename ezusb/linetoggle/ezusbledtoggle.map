@@ -1,0 +1,296 @@
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+CABS                               0000   0000 =      0. bytes (ABS,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:FFFFFF00    s_BSEG
+  0C:0000    l_BIT_BANK
+  0C:0000    l_BSEG
+  0C:0000    l_BSEG_BYTES
+  0C:0000    l_CABS
+  0C:0000    l_CONST
+  0C:0000    l_GSINIT
+  0C:0000    l_GSINIT1
+  0C:0000    l_GSINIT5
+  0C:0000    l_IABS
+  0C:0000    l_ISEG
+  0C:0000    l_PSEG
+  0C:0000    l_REG_BANK_1
+  0C:0000    l_REG_BANK_2
+  0C:0000    l_REG_BANK_3
+  0C:0000    l_RSEG
+  0C:0000    l_XABS
+  0C:0000    l_XINIT
+  0C:0000    l_XISEG
+  0C:0000    l_XSEG
+  0C:0000    l__CODE
+  0C:0000    s_BSEG_BYTES
+  0C:0000    s_CABS
+  0C:0000    s_DSEG
+  0C:0000    s_HOME
+  0C:0000    s_IABS
+  0C:0000    s_ISEG
+  0C:0000    s_PSEG
+  0C:0000    s_REG_BANK_0
+  0C:0000    s_XABS
+  0C:0000    s_XISEG
+  0C:0000    s_XSEG
+  0C:0003    l_GSFINAL
+  0C:0003    l_GSINIT0
+  0C:0004    l_OSEG
+  0C:0008    l_HOME
+  0C:0008    l_REG_BANK_0
+  0C:0008    s_GSINIT0
+  0C:0008    s_OSEG
+  0C:0008    s_REG_BANK_1
+  0C:000A    l_GSINIT2
+  0C:000B    s_GSINIT1
+  0C:000B    s_GSINIT2
+  0C:000C    s_RSEG
+  0C:000C    s_SSEG
+  0C:0010    s_REG_BANK_2
+  0C:0015    s_GSINIT3
+  0C:0018    s_BIT_BANK
+  0C:0018    s_REG_BANK_3
+  0C:0020    s__CODE
+  0C:0022    l_GSINIT3
+  0C:002A    l_GSINIT4
+  0C:0037    s_GSINIT4
+  0C:0061    s_GSFINAL
+  0C:0061    s_GSINIT
+  0C:0061    s_GSINIT5
+  0C:0064    s_CSEG
+  0C:0080    l_DSEG
+  0C:00B6    l_CSEG
+  0C:00F4    l_SSEG
+  0C:0100    l_IRAM
+  0C:011A    s_CONST
+  0C:011A    s_XINIT
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+.  .ABS.                           0000   0000 =      0. bytes (ABS,CON)
+
+      Value  Global
+   --------  --------------------------------
+     0087    _PCON
+     0088    _TCON
+     0089    _TMOD
+     008A    _TL0
+     008B    _TL1
+     008C    _TH0
+     008C    _TR0
+     008D    _TH1
+     008E    _CKCON
+     008E    _TR1
+     0091    _EXIF
+     0098    _RI_0
+     0098    _SCON0
+     0099    _SBUF0
+     0099    _TI_0
+     00A0    __XPAGE
+     00A8    _IE
+     00A9    _ET0
+     00AC    _ES0
+     00AD    _ET2
+     00AE    _ES1
+     00AF    _EA
+     00C0    _RI_1
+     00C0    _SCON1
+     00C1    _SBUF1
+     00C1    _TI_1
+     00C8    _T2CON
+     00CA    _RCAP2L
+     00CA    _TR2
+     00CB    _RCAP2H
+     00CC    _TL2
+     00CD    _TH2
+     00CF    _TF2
+     00D8    _EICON
+     00E8    _EIE
+     00E8    _EUSB
+     7D00    _IN4BUF
+     7DC0    _OUT2BUF
+     7E00    _IN2BUF
+     7E40    _OUT1BUF
+     7E80    _IN1BUF
+     7EC0    _OUT0BUF
+     7F00    _IN0BUF
+     7F92    _CPUCS
+     7F93    _PORTACFG
+     7F94    _PORTBCFG
+     7F95    _PORTCCFG
+     7F96    _OUTA
+     7F97    _OUTB
+     7F98    _OUTC
+     7F99    _PINSA
+     7F9A    _PINSB
+     7F9B    _PINSC
+     7F9C    _OEA
+     7F9D    _OEB
+     7F9E    _OEC
+     7F9F    _UART230
+     7FA5    _I2CS
+     7FA6    _I2DAT
+     7FA9    _IN07IRQ
+     7FAA    _OUT07IRQ
+     7FAB    _USBIRQ
+     7FAC    _IN07IEN
+     7FAD    _OUT07IEN
+     7FAE    _USBIEN
+     7FAF    _USBBAV
+     7FB4    _EP0CS
+     7FB4    _EPx
+     7FB5    _IN0BC
+     7FB6    _IN1CS
+     7FB7    _IN1BC
+     7FB8    _IN2CS
+     7FB9    _IN2BC
+     7FBC    _IN4CS
+     7FBD    _IN4BC
+     7FC5    _OUT0BC
+     7FC6    _OUT1CS
+     7FC7    _OUT1BC
+     7FC8    _OUT2CS
+     7FC9    _OUT2BC
+     7FD4    _SUDPTRH
+     7FD5    _SUDPTRL
+     7FD6    _USBCS
+     7FD8    _USBFRAMEL
+     7FD9    _USBFRAMEH
+     7FDD    _USBPAIR
+     7FDE    _IN07VAL
+     7FDF    _OUT07VAL
+     7FE3    _AUTOPTRH
+     7FE4    _AUTOPTRL
+     7FE5    _AUTODATA
+     7FE8    _SETUPDAT
+
+
+
+
+
+
+
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+OSEG                               0008   0004 =      4. bytes (REL,OVR)
+
+      Value  Global
+   --------  --------------------------------
+     0008    _delay_DELAY_1_1
+     0008    _delay_short_DELAY_1_1
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+SSEG                               000C   00F4 =    244. bytes (REL,OVR)
+
+      Value  Global
+   --------  --------------------------------
+     000C    __start__stack
+
+
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+HOME                               0000   0008 =      8. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0003    __sdcc_program_startup
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSINIT0                            0008   0003 =      3. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0008    __sdcc_gsinit_startup
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSINIT3                            0015   0022 =     34. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0015    __mcs51_genXINIT
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+GSINIT4                            0037   002A =     42. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0037    __mcs51_genRAMCLEAR
+  0C:003D    __mcs51_genXRAMCLEAR
+
+
+
+
+Hexadecimal
+
+Area                               Addr   Size   Decimal Bytes (Attributes)
+--------------------------------   ----   ----   ------- ----- ------------
+CSEG                               0064   00B6 =    182. bytes (REL,CON,CODE)
+
+      Value  Global
+   --------  --------------------------------
+  0C:0064    _TD_Init
+  0C:0086    _delay
+  0C:00BD    _delay_short
+  0C:00F4    _main
+  0C:0116    __sdcc_external_startup
+
+
+ASxxxx Linker V01.75 + NoICE + SDCC Feb 1999,  page 1.
+
+Files Linked      [ module(s) ]
+
+ezusbledtoggle.rel
+
+Libraries Linked            [   object  file   ]
+
+/usr/bin/../share/sdcc/lib/small/mcs51.lib    [     crtclear.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib    [     crtxinit.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib    [    crtxclear.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib    [   crtpagesfr.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib    [     crtstart.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib    [         _startup ]
+
+ASxxxx Linker V01.75 + NoICE + SDCC Feb 1999,  page 2.
+
+User Base Address Definitions
+
+HOME = 0x0000
+ISEG = 0x0000
+BSEG = 0x0000
+
+
